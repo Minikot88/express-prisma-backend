@@ -1,0 +1,362 @@
+{
+  "fetchedAt": "2025-12-09T13:00:14.010Z",
+  "key": "prefixs",
+  "url": "https://triup.tsri.or.th/service/api/prefixs",
+  "data": {
+    "status": "success",
+    "data": [
+      {
+        "id": 1,
+        "prefix_name": "นาย"
+      },
+      {
+        "id": 2,
+        "prefix_name": "นาง"
+      },
+      {
+        "id": 3,
+        "prefix_name": "น.ส."
+      },
+      {
+        "id": 4,
+        "prefix_name": "ม.ล."
+      },
+      {
+        "id": 5,
+        "prefix_name": "ม.ร.ว."
+      },
+      {
+        "id": 6,
+        "prefix_name": "ม.จ."
+      },
+      {
+        "id": 8,
+        "prefix_name": "ด.ช."
+      },
+      {
+        "id": 9,
+        "prefix_name": "ด.ญ."
+      },
+      {
+        "id": 10,
+        "prefix_name": "พลฯ"
+      },
+      {
+        "id": 11,
+        "prefix_name": "ส.ต.ต."
+      },
+      {
+        "id": 12,
+        "prefix_name": "ส.ต.ท."
+      },
+      {
+        "id": 13,
+        "prefix_name": "ส.ต.อ."
+      },
+      {
+        "id": 14,
+        "prefix_name": "จ.ส.ต."
+      },
+      {
+        "id": 15,
+        "prefix_name": "นายดาบ"
+      },
+      {
+        "id": 16,
+        "prefix_name": "ร.ต.ต."
+      },
+      {
+        "id": 17,
+        "prefix_name": "ร.ต.ท."
+      },
+      {
+        "id": 18,
+        "prefix_name": "ร.ต.อ."
+      },
+      {
+        "id": 19,
+        "prefix_name": "พ.ต.ต."
+      },
+      {
+        "id": 20,
+        "prefix_name": "พ.ต.ท."
+      },
+      {
+        "id": 21,
+        "prefix_name": "พ.ต.อ."
+      },
+      {
+        "id": 22,
+        "prefix_name": "พล.ต.ต."
+      },
+      {
+        "id": 23,
+        "prefix_name": "พล.ต.ท."
+      },
+      {
+        "id": 24,
+        "prefix_name": "พล.ต.อ."
+      },
+      {
+        "id": 25,
+        "prefix_name": "ว่าที่ร.ต."
+      },
+      {
+        "id": 26,
+        "prefix_name": "ว่าที่ร.ท."
+      },
+      {
+        "id": 27,
+        "prefix_name": "ว่าที่ร.อ."
+      },
+      {
+        "id": 28,
+        "prefix_name": "ว่าที่พ.ต."
+      },
+      {
+        "id": 29,
+        "prefix_name": "พระ"
+      },
+      {
+        "id": 31,
+        "prefix_name": "ส.ต."
+      },
+      {
+        "id": 32,
+        "prefix_name": "ส.ท."
+      },
+      {
+        "id": 33,
+        "prefix_name": "ส.อ."
+      },
+      {
+        "id": 35,
+        "prefix_name": "จ.ส.ท."
+      },
+      {
+        "id": 36,
+        "prefix_name": "จ.ส.อ."
+      },
+      {
+        "id": 38,
+        "prefix_name": "ร.ต."
+      },
+      {
+        "id": 39,
+        "prefix_name": "ร.ท."
+      },
+      {
+        "id": 40,
+        "prefix_name": "ร.อ."
+      },
+      {
+        "id": 41,
+        "prefix_name": "พ.ต."
+      },
+      {
+        "id": 42,
+        "prefix_name": "พ.ท."
+      },
+      {
+        "id": 43,
+        "prefix_name": "พ.อ."
+      },
+      {
+        "id": 44,
+        "prefix_name": "พล.จ."
+      },
+      {
+        "id": 45,
+        "prefix_name": "พล.ต."
+      },
+      {
+        "id": 46,
+        "prefix_name": "พล.ท."
+      },
+      {
+        "id": 47,
+        "prefix_name": "พล.อ."
+      },
+      {
+        "id": 51,
+        "prefix_name": "ด.ต."
+      },
+      {
+        "id": 52,
+        "prefix_name": "จ.ต."
+      },
+      {
+        "id": 53,
+        "prefix_name": "จ.ท."
+      },
+      {
+        "id": 54,
+        "prefix_name": "จ.อ."
+      },
+      {
+        "id": 55,
+        "prefix_name": "พ.จ.ต."
+      },
+      {
+        "id": 56,
+        "prefix_name": "พ.จ.ท."
+      },
+      {
+        "id": 57,
+        "prefix_name": "พ.จ.อ."
+      },
+      {
+        "id": 58,
+        "prefix_name": "ร.ต.-ร.น."
+      },
+      {
+        "id": 59,
+        "prefix_name": "ร.ท.-ร.น."
+      },
+      {
+        "id": 60,
+        "prefix_name": "ร.อ.-ร.น."
+      },
+      {
+        "id": 61,
+        "prefix_name": "น.ต.-ร.น."
+      },
+      {
+        "id": 62,
+        "prefix_name": "น.ท.-ร.น."
+      },
+      {
+        "id": 63,
+        "prefix_name": "น.อ.-ร.น."
+      },
+      {
+        "id": 64,
+        "prefix_name": "พลเรือ จ."
+      },
+      {
+        "id": 65,
+        "prefix_name": "พลเรือ ต."
+      },
+      {
+        "id": 66,
+        "prefix_name": "พลเรือ ท."
+      },
+      {
+        "id": 67,
+        "prefix_name": "พลเรือ อ."
+      },
+      {
+        "id": 68,
+        "prefix_name": "ว่าที่ ร.ต. หญิง"
+      },
+      {
+        "id": 69,
+        "prefix_name": "ว่าที่ ร.ท. หญิง"
+      },
+      {
+        "id": 72,
+        "prefix_name": "จ.อ.ต."
+      },
+      {
+        "id": 73,
+        "prefix_name": "จ.อ.ท."
+      },
+      {
+        "id": 74,
+        "prefix_name": "จ.อ.อ."
+      },
+      {
+        "id": 75,
+        "prefix_name": "พ.อ.ต."
+      },
+      {
+        "id": 76,
+        "prefix_name": "พ.อ.ท."
+      },
+      {
+        "id": 77,
+        "prefix_name": "พ.อ.อ."
+      },
+      {
+        "id": 81,
+        "prefix_name": "น.ต."
+      },
+      {
+        "id": 82,
+        "prefix_name": "น.ท."
+      },
+      {
+        "id": 83,
+        "prefix_name": "น.อ."
+      },
+      {
+        "id": 84,
+        "prefix_name": "พล.อ.จ."
+      },
+      {
+        "id": 85,
+        "prefix_name": "พล.อ.ต."
+      },
+      {
+        "id": 86,
+        "prefix_name": "พล.อ.ท."
+      },
+      {
+        "id": 87,
+        "prefix_name": "พล.อ.อ."
+      },
+      {
+        "id": 88,
+        "prefix_name": "นายหมวดโท"
+      },
+      {
+        "id": 89,
+        "prefix_name": "นายหมวดตรี"
+      },
+      {
+        "id": 90,
+        "prefix_name": "นายกองโท"
+      },
+      {
+        "id": 91,
+        "prefix_name": "นายกองตรี"
+      },
+      {
+        "id": 102,
+        "prefix_name": "ศ.ดร."
+      },
+      {
+        "id": 103,
+        "prefix_name": "รศ.ดร."
+      },
+      {
+        "id": 104,
+        "prefix_name": "ผศ.ดร."
+      },
+      {
+        "id": 105,
+        "prefix_name": "ดร."
+      },
+      {
+        "id": 106,
+        "prefix_name": "รศ.พญ."
+      },
+      {
+        "id": 107,
+        "prefix_name": "ผศ.นพ."
+      },
+      {
+        "id": 108,
+        "prefix_name": "ศ.(เชี่ยวชาญพิเศษ) พญ."
+      },
+      {
+        "id": 109,
+        "prefix_name": "รศ.ดร.นพ."
+      },
+      {
+        "id": 110,
+        "prefix_name": "ผศ. ว่าที่ ร.ต. ดร."
+      }
+    ]
+  }
+}

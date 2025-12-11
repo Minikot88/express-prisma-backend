@@ -1,0 +1,376 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model address {
+  ad_pk_id   Int     @default(autoincrement())
+  id         Int?
+  title      String? @db.VarChar(255)
+  ad_pk_uuid String  @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+}
+
+model cofunders {
+  cof_pk_id   Int     @default(autoincrement())
+  id          Int?
+  name        String? @db.VarChar(255)
+  cof_pk_uuid String  @id @db.Uuid
+}
+
+model departments {
+  dep_pk_id   Int     @default(autoincrement())
+  id          Int?
+  name        String? @db.VarChar(255)
+  dep_pk_uuid String  @id @db.Uuid
+}
+
+model educationlevels {
+  ecl_pk_id   Int     @default(autoincrement())
+  id          Int?
+  title       String? @db.VarChar(255)
+  ecl_pk_uuid String  @id @db.Uuid
+}
+
+model file_uploads {
+  fu_id      Int       @unique(map: "uq_file_uploads_fuid") @default(autoincrement())
+  fu_name    String?   @db.VarChar(255)
+  fu_path    String?   @db.VarChar(255)
+  fu_ext     String?   @db.VarChar(50)
+  fu_mime    String?   @db.VarChar(100)
+  fu_size    BigInt?
+  create_by  Int?
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  update_by  Int?
+  updated_at DateTime? @default(now()) @db.Timestamptz(6)
+  url        String?   @db.VarChar(255)
+  pivot_id   Int?
+  fu_pk_uuid String    @id @db.Uuid
+}
+
+model findingdetaillists {
+  fdl_pk_id   Int     @default(autoincrement())
+  id          Int?
+  title       String? @db.VarChar(255)
+  fdl_pk_uuid String  @id @db.Uuid
+}
+
+model form_allocate {
+  allocate_pk_id      Int       @default(autoincrement())
+  form_allocate_id    Int?
+  start_date          DateTime? @db.Timestamptz(6)
+  end_date            DateTime? @db.Timestamptz(6)
+  allocate_code       String?   @db.VarChar(255)
+  form_utilization_id Int?
+  report_title_th     String?   @db.VarChar(255)
+  create_by           Int?
+  allocate_pk_uuid    String    @id @db.Uuid
+}
+
+model form_extend {
+  extend_pk_id        Int       @default(autoincrement())
+  form_extend_id      Int?
+  extend_status       String?   @db.VarChar(255)
+  extend_code         String?   @db.VarChar(255)
+  form_own_id         Int?      @unique(map: "uq_form_extend_own_id")
+  extend_check_status String?   @db.VarChar(255)
+  extend_start_date   DateTime? @db.Timestamptz(6)
+  extend_end_date     DateTime? @db.Timestamptz(6)
+  form_new_id         Int?      @unique(map: "uq_form_extend_new_id")
+  report_code         String?   @db.VarChar(255)
+  report_title_th     String?   @db.VarChar(255)
+  create_by           Int?
+  extend_pk_uuid      String    @id @db.Uuid
+}
+
+model form_new_findings {
+  findings_pk_id   Int       @default(autoincrement())
+  form_new_id      Int?
+  report_code      String?   @db.VarChar(1255)
+  report_title_th  String?   @db.VarChar(1255)
+  report_title_en  String?   @db.VarChar(1255)
+  createby         Int?
+  form_status_id   Int?
+  sla_at           DateTime? @db.Timestamptz(6)
+  sla_by           Int?
+  status           String?   @db.VarChar(1255)
+  findings_pk_uuid String    @id @db.Uuid
+}
+
+model form_research_owner {
+  owner_pk_id            Int       @default(autoincrement())
+  form_own_id            Int?
+  form_own_code          String?   @db.VarChar(1255)
+  form_own_form_id       Int?
+  form_own_prefix        Int?
+  form_own_fullname      String?   @db.VarChar(1255)
+  form_own_lastname      String?   @db.VarChar(1255)
+  form_own_co_owner      String?   @db.VarChar(1255)
+  form_own_co_owner_type String?   @db.VarChar(1255)
+  form_own_ownertype     String?   @db.VarChar(1255)
+  form_own_co_prefix     Int?
+  form_own_co_name       String?   @db.VarChar(1255)
+  form_own_co_lastname   String?   @db.VarChar(1255)
+  form_own_co_idcard_no  String?   @db.VarChar(1255)
+  form_own_co_department String?   @db.VarChar(1255)
+  form_own_co_position   String?   @db.VarChar(1255)
+  form_own_co_tel        String?   @db.VarChar(1255)
+  form_own_co_mail       String?   @db.VarChar(1255)
+  form_own_status        String?   @db.VarChar(1255)
+  form_own_checked_by    Int?
+  form_own_checked_date  DateTime? @db.Timestamptz(6)
+  form_own_date_approve  DateTime? @db.Timestamptz(6)
+  form_own_form_plan_id  Int?
+  is_ownership           Boolean?
+  form_own_create_by     Int?
+  form_own_created_at    DateTime? @db.Timestamptz(6)
+  form_own_update_by     Int?
+  form_own_updated_at    DateTime? @db.Timestamptz(6)
+  form_own_deleted_at    DateTime? @db.Timestamptz(6)
+  form_new_id            Int?      @unique(map: "uq_research_owner_form_new_id")
+  form_own_form_name     String?   @db.VarChar(1255)
+  status                 String?   @db.VarChar(1255)
+  fullname               String?   @db.VarChar(1255)
+  form_owner_name        String?   @db.VarChar(1255)
+  form_own_department    String?   @db.VarChar(1255)
+  is_ownership_status    String?   @db.VarChar(1255)
+  objective              String?
+  period                 String?   @db.VarChar(1255)
+  file_uploads_plan      Int?
+  file_uploads_contract  Int?
+  file_uploads_other     Int?
+  owner_pk_uuid          String    @id @db.Uuid
+}
+
+model form_research_plan {
+  plan_pk_id                  Int       @default(autoincrement())
+  form_plan_id                Int?      @unique(map: "uq_research_plan_plan_id")
+  form_plan_form_new_id       Int?      @unique(map: "uq_research_plan_form_new")
+  form_plan_code              String?   @db.VarChar(1255)
+  form_plan_fullname          String?   @db.VarChar(1255)
+  form_plan_lastname          String?   @db.VarChar(1255)
+  form_plan_prefix            Int?
+  form_plan_idcard            String?   @db.VarChar(1255)
+  form_plan_department        String?   @db.VarChar(1255)
+  form_plan_position          String?   @db.VarChar(1255)
+  form_plan_tel               String?   @db.VarChar(1255)
+  form_plan_email             String?   @db.VarChar(1255)
+  form_plan_type_status       String?   @db.VarChar(1255)
+  form_plan_type_status_other String?   @db.VarChar(1255)
+  form_plan_period            Int?
+  form_plan_start_date        DateTime? @db.Timestamptz(6)
+  form_plan_usage_value       Decimal?  @db.Decimal(18, 2)
+  form_plan_target            String?
+  form_plan_target_check      String?   @db.VarChar(1255)
+  form_plan_target_other      String?   @db.VarChar(1255)
+  form_plan_user_target       String?   @db.VarChar(1255)
+  form_plan_result            String?
+  form_plan_result_check      String?   @db.VarChar(1255)
+  form_plan_result_other      String?   @db.VarChar(1255)
+  form_plan_user_result       String?   @db.VarChar(1255)
+  form_plan_status            String?   @db.VarChar(1255)
+  form_plan_checked_by        Int?
+  form_plan_checked_date      DateTime? @db.Timestamptz(6)
+  form_plan_form_own_id       Int?
+  form_plan_form_plan_id      Int?
+  form_plan_type              String?   @db.VarChar(1255)
+  form_plan_reason            String?
+  form_plan_condition         Int?
+  form_plan_create_by         Int?
+  form_plan_created_at        DateTime? @db.Timestamptz(6)
+  form_plan_update_by         Int?
+  form_plan_updated_at        DateTime? @db.Timestamptz(6)
+  form_plan_deleted_at        DateTime? @db.Timestamptz(6)
+  fullname                    String?   @db.VarChar(1255)
+  objective                   String?
+  period                      String?   @db.VarChar(1255)
+  file_uploads                Int?
+  plan_pk_uuid                String    @id @db.Uuid
+}
+
+model form_utilization {
+  utilization_pk_id                  Int       @default(autoincrement())
+  form_utilization_id                Int?      @unique(map: "uq_utilization_id")
+  form_new_id                        Int?      @unique(map: "uq_utilization_new")
+  form_own_id                        Int?      @unique(map: "uq_utilization_own")
+  form_plan_id                       Int?      @unique(map: "uq_utilization_plan")
+  is_type                            String?   @db.VarChar(255)
+  is_uti_type                        String?   @db.VarChar(255)
+  utilization_code                   String?   @db.VarChar(255)
+  utilization_no                     String?   @db.VarChar(255)
+  utilization_fullname               String?   @db.VarChar(255)
+  current_status                     String?   @db.VarChar(255)
+  current_other                      String?   @db.VarChar(255)
+  is_use                             String?   @db.VarChar(255)
+  objective                          String?   @db.VarChar(255)
+  utilization_type                   String?   @db.VarChar(255)
+  utilization_other                  String?   @db.VarChar(255)
+  utilization_type_detail1           String?   @db.VarChar(255)
+  utilization_type_detail2           String?   @db.VarChar(255)
+  kind_of_use                        String?   @db.VarChar(255)
+  kind_of_use_other                  String?   @db.VarChar(255)
+  kind_of_use_other2                 String?   @db.VarChar(255)
+  kind_of_use_other3                 String?   @db.VarChar(255)
+  utilization_period                 String?   @db.VarChar(255)
+  start_date                         DateTime? @db.Timestamptz(6)
+  utilization_detail                 String?
+  protection                         String?   @db.VarChar(255)
+  protection_other                   String?   @db.VarChar(255)
+  utilization_amount                 Decimal?  @db.Decimal(18, 2)
+  utilization_amount_type            String?   @db.VarChar(255)
+  utilization_amount_type_other      String?   @db.VarChar(255)
+  utilization_amount_more            Decimal?  @db.Decimal(18, 2)
+  utilization_amount_type_more       String?   @db.VarChar(255)
+  utilization_amount_type_other_more String?   @db.VarChar(255)
+  utilization_remark                 String?
+  utilization_money                  Decimal?  @db.Decimal(18, 2)
+  utilization_money2                 Decimal?  @db.Decimal(18, 2)
+  utilization_money3                 Decimal?  @db.Decimal(18, 2)
+  utilization_money4                 Decimal?  @db.Decimal(18, 2)
+  utilization_remark2                String?
+  utilization_sum1                   Decimal?  @db.Decimal(18, 2)
+  utilization_sum2                   Decimal?  @db.Decimal(18, 2)
+  utilization_data                   String?
+  utilization_status                 String?   @db.VarChar(255)
+  utilization_success                String?   @db.VarChar(255)
+  is_income                          String?   @db.VarChar(255)
+  is_status                          String?   @db.VarChar(255)
+  allocate_income_type               String?   @db.VarChar(255)
+  utilization_condition              String?
+  utilization_checked_by             Int?
+  utilization_checked_date           DateTime? @db.Timestamptz(6)
+  utilization_pk_uuid                String    @id @db.Uuid
+}
+
+model funder {
+  fun_pk_id   Int     @default(autoincrement())
+  id          Int?
+  title       String? @db.VarChar(255)
+  fun_pk_uuid String  @id @db.Uuid
+}
+
+model groupstudies {
+  group_pk_id   Int     @default(autoincrement())
+  id            Int?
+  title         String? @db.VarChar(255)
+  group_pk_uuid String  @id @db.Uuid
+}
+
+model mainstudies {
+  main_pk_id   Int     @default(autoincrement())
+  id           Int?
+  title        String? @db.VarChar(255)
+  main_pk_uuid String  @id @db.Uuid
+}
+
+model pivot {
+  pivot_id        Int     @unique(map: "uq_pivot_id") @default(autoincrement())
+  uploadable_id   Int?
+  uploadable_type String? @db.VarChar(255)
+  fu_id           Int?
+  pivot_pk_uuid   String  @id @db.Uuid
+}
+
+model prefixs {
+  prefixs_pk_id   Int     @default(autoincrement())
+  id              Int?    @unique(map: "uq_prefixs_id")
+  prefix_name     String? @db.VarChar(255)
+  prefixs_pk_uuid String  @id @db.Uuid
+}
+
+model psu_roles {
+  roles_id      Int     @unique(map: "uq_psu_roles_roles_id") @default(autoincrement())
+  roles_name    String? @db.VarChar(255)
+  roles_pk_uuid String  @id @db.Uuid
+}
+
+model psu_user_login {
+  user_id      Int       @default(autoincrement())
+  username     String?   @db.VarChar(255)
+  token        String?
+  createdAt    DateTime? @default(now()) @db.Timestamp(6)
+  updateAt     DateTime? @default(now()) @db.Timestamp(6)
+  roles_id     Int?
+  user_pk_uuid String    @id @db.Uuid
+}
+
+model psu_user_profile {
+  profile_uuid    String   @id @db.Uuid
+  user_id         String   @unique
+  prefix          String?
+  first_name      String?
+  last_name       String?
+  fullname        String?
+  idcard          String?
+  staffid         String?
+  department_id   String?
+  department_name String?
+  faculty_id      String?
+  campus_id       String?
+  campus_name     String?
+  email           String?
+  createdAt       DateTime @default(now()) @db.Timestamptz(6)
+  updatedAt       DateTime @default(now()) @db.Timestamptz(6)
+}
+
+model researcher {
+  res_pk_id       Int     @default(autoincrement())
+  user_id         String? @db.VarChar(50)
+  email           String? @db.VarChar(255)
+  card_id         String? @db.VarChar(50)
+  default_role_id String? @db.VarChar(550)
+  department_id   String? @db.VarChar(50)
+  fullname        String? @db.VarChar(255)
+  department_name String? @db.VarChar(255)
+  res_pk_uuid     String  @id @db.Uuid
+}
+
+model roles {
+  roles_pk_id   Int     @default(autoincrement())
+  id            Int?
+  name_th       String? @db.VarChar(255)
+  roles_pk_uuid String  @id @db.Uuid
+}
+
+model session {
+  session_id      Int       @default(autoincrement())
+  username        String?
+  token           String?
+  createdAt       DateTime? @default(now()) @db.Timestamp(6)
+  expiresAt       DateTime? @db.Timestamp(6)
+  roles_id        Int?
+  session_pk_uuid String    @id @db.Uuid
+}
+
+model substudies {
+  sub_pk_id   Int     @default(autoincrement())
+  id          Int?
+  title       String? @db.VarChar(255)
+  sub_pk_uuid String  @id @db.Uuid
+}
+
+model target_audiences {
+  target_aud_pk_id   Int     @default(autoincrement())
+  id                 Int?
+  title              String? @db.VarChar(255)
+  target_aud_pk_uuid String  @id @db.Uuid
+}
+
+model time_settings {
+  ts_pk_id   Int     @default(autoincrement())
+  id         Int?
+  title      String? @db.VarChar(255)
+  ts_pk_uuid String  @id @db.Uuid
+}
+
+model users {
+  user_pk_id      Int     @default(autoincrement())
+  user_id         String? @unique @db.VarChar(50)
+  email           String? @db.VarChar(255)
+  card_id         String? @db.VarChar(50)
+  default_role_id String? @db.VarChar(550)
+  fullname        String? @db.VarChar(255)
+  user_pk_uuid    String  @id @db.Uuid
+}

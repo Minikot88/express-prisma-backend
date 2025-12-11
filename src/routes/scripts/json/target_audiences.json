@@ -1,0 +1,38 @@
+{
+  "fetchedAt": "2025-12-09T13:00:14.010Z",
+  "key": "target_audiences",
+  "url": "https://triup.tsri.or.th/service/api/target_audiences",
+  "data": {
+    "status": "success",
+    "data": [
+      {
+        "id": 1,
+        "title": "บริษัทเอกชน"
+      },
+      {
+        "id": 2,
+        "title": "วิสาหกิจชุมชน/กลุ่มสหกรณ์/เกษตรกร"
+      },
+      {
+        "id": 3,
+        "title": "รัฐวิสาหกิจ"
+      },
+      {
+        "id": 4,
+        "title": "หน่วยงานของรัฐ"
+      },
+      {
+        "id": 5,
+        "title": "สังคม/ชุมชน"
+      },
+      {
+        "id": 6,
+        "title": "ประชาชนทั่วไป"
+      },
+      {
+        "id": 7,
+        "title": "อื่นๆ โปรดระบุ"
+      }
+    ]
+  }
+}

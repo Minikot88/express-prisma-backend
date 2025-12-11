@@ -1,0 +1,34 @@
+{
+  "fetchedAt": "2025-12-09T13:00:14.010Z",
+  "key": "mainstudies",
+  "url": "https://triup.tsri.or.th/service/api/mainstudies",
+  "data": {
+    "status": "success",
+    "data": [
+      {
+        "id": 1,
+        "title": "วิทยาศาสตร์ธรรมชาติ"
+      },
+      {
+        "id": 2,
+        "title": "วิศวกรรมและเทคโนโลยี"
+      },
+      {
+        "id": 3,
+        "title": "วิทยาศาสตร์การแพทย์และสุขภาพ"
+      },
+      {
+        "id": 4,
+        "title": "เกษตรศาสตร์"
+      },
+      {
+        "id": 5,
+        "title": "สังคมศาสตร์"
+      },
+      {
+        "id": 6,
+        "title": "มนุษยศาสตร์"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "fetchedAt": "2025-12-09T13:00:14.010Z",
+  "key": "educationlevels",
+  "url": "https://triup.tsri.or.th/service/api/educationlevels",
+  "data": {
+    "status": "success",
+    "data": [
+      {
+        "id": 1,
+        "title": "ตรี"
+      },
+      {
+        "id": 2,
+        "title": "โท"
+      },
+      {
+        "id": 3,
+        "title": "เอก"
+      },
+      {
+        "id": 4,
+        "title": "อื่นๆ"
+      }
+    ]
+  }
+}

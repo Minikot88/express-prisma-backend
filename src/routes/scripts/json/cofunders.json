@@ -1,0 +1,30 @@
+{
+  "fetchedAt": "2025-12-09T13:00:14.010Z",
+  "key": "cofunders",
+  "url": "https://triup.tsri.or.th/service/api/cofunders",
+  "data": {
+    "status": "success",
+    "data": [
+      {
+        "id": 1,
+        "name": "หน่วยงานของรัฐ"
+      },
+      {
+        "id": 2,
+        "name": "เอกชน"
+      },
+      {
+        "id": 3,
+        "name": "รัฐวิสาหกิจ"
+      },
+      {
+        "id": 4,
+        "name": "มูลนิธิ / หน่วยงานไม่แสวงหาผลกำไร"
+      },
+      {
+        "id": 5,
+        "name": "อื่นๆ โปรดระบุ................"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "fetchedAt": "2025-12-09T13:00:14.010Z",
+  "key": "roles",
+  "url": "https://triup.tsri.or.th/service/api/roles",
+  "data": {
+    "status": "success",
+    "data": [
+      {
+        "id": 1,
+        "name_th": "Super Admin"
+      },
+      {
+        "id": 2,
+        "name_th": "Admin (ผู้ดูแลระบบ)"
+      },
+      {
+        "id": 3,
+        "name_th": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม"
+      },
+      {
+        "id": 4,
+        "name_th": "ผู้รับทุน"
+      },
+      {
+        "id": 5,
+        "name_th": "ผู้ให้ทุน"
+      },
+      {
+        "id": 6,
+        "name_th": "ผู้รับโอน"
+      },
+      {
+        "id": 7,
+        "name_th": "สกสว."
+      },
+      {
+        "id": 9,
+        "name_th": "บุคคลภายนอก"
+      },
+      {
+        "id": 11,
+        "name_th": "ผู้ให้ทุนร่วม"
+      }
+    ]
+  }
+}
