@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2025-12-09T13:00:14.010Z",
+  "fetchedAt": "2025-12-15T09:31:40.123Z",
   "key": "users",
   "url": "https://triup.tsri.or.th/service/api/users",
   "data": {
@@ -137,6 +137,13 @@
         "card_id": "19XXXXXXX4805",
         "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
         "fullname": "นายบัดรูดิง  ขาลี"
+      },
+      {
+        "user_id": 7187,
+        "email": "nureehan.s@psu.ac.th",
+        "card_id": "19XXXXXXX1073",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "fullname": "น.ส.นูรีฮาน  สาเเละ"
       },
       {
         "user_id": 3860,

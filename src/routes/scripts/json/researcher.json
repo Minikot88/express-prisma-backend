@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2025-12-09T13:00:14.010Z",
+  "fetchedAt": "2025-12-15T09:31:40.123Z",
   "key": "researcher",
   "url": "https://triup.tsri.or.th/service/api/users/researcher",
   "data": {
@@ -33586,7 +33586,7 @@
       },
       {
         "user_id": 5218,
-        "email": "Nipon.chi@gmail.com",
+        "email": "Nipons2000@gmail.com",
         "card_id": "37XXXXXXX0167",
         "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
         "department_id": 104,
@@ -44160,6 +44160,15 @@
         "department_name": "สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.)"
       },
       {
+        "user_id": 6594,
+        "email": "wiboonsirikul@yahoo.com",
+        "card_id": "31XXXXXXX9271",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 131,
+        "fullname": "น.ส.จินตนา  วิบูลย์ศิริกุล",
+        "department_name": "มหาวิทยาลัยราชภัฏเพชรบุรี"
+      },
+      {
         "user_id": 6595,
         "email": "chet_narabhat@yahoo.com",
         "card_id": "31XXXXXXX6578",
@@ -48021,6 +48030,15 @@
         "department_name": "สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.)"
       },
       {
+        "user_id": 7090,
+        "email": "admin@abtrimookclub.com",
+        "card_id": "38XXXXXXX9002",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 459,
+        "fullname": "ผศ.ดร.นภาดา  ยุกติรัตน์",
+        "department_name": "ไม่สังกัดหน่วยงาน"
+      },
+      {
         "user_id": 7091,
         "email": "Nikhom.Promkajin@nectec.or.th",
         "card_id": "37XXXXXXX6513",
@@ -48183,6 +48201,15 @@
         "department_name": "มหาวิทยาลัยราชภัฏอุบลราชธานี"
       },
       {
+        "user_id": 7111,
+        "email": "p.satienpong@gmail.com",
+        "card_id": "11XXXXXXX6103",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 459,
+        "fullname": "นายเสถียรพงษ์  ปัณณวัฒน์วิสุทธิ์",
+        "department_name": "ไม่สังกัดหน่วยงาน"
+      },
+      {
         "user_id": 7112,
         "email": "artithutem@pcru.ac.th",
         "card_id": "36XXXXXXX2046",
@@ -48219,6 +48246,15 @@
         "department_name": "มหาวิทยาลัยเกษตรศาสตร์"
       },
       {
+        "user_id": 7116,
+        "email": "jeerayu.cu@gmail.com",
+        "card_id": "33XXXXXXX7957",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 728,
+        "fullname": "ดร.จีรายุ  ขอเชิญกลาง",
+        "department_name": "บริษัท เจ แอนด์ เอ็น คอนซัลติ้ง แอนด์ เทรดดิ้ง เซอร์วิสเซส จำกัด"
+      },
+      {
         "user_id": 7118,
         "email": "yotsapon_y@kkumail.com",
         "card_id": "13XXXXXXX1721",
@@ -48235,6 +48271,15 @@
         "department_id": 46,
         "fullname": "นางกิ่งกานต์ บุญสุยา  สีโย",
         "department_name": "กรมปศุสัตว์"
+      },
+      {
+        "user_id": 7120,
+        "email": "Sasikorn.wee@gmail.com",
+        "card_id": "17XXXXXXX6546",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 459,
+        "fullname": "น.ส.ศศิกร  วีรปรีชาชัย",
+        "department_name": "ไม่สังกัดหน่วยงาน"
       },
       {
         "user_id": 7121,
@@ -48270,6 +48315,15 @@
         "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
         "department_id": 99,
         "fullname": "รศ.ดร.กิติพงษ์  รัตนาภรณ์",
+        "department_name": "มหาวิทยาลัยเกษตรศาสตร์"
+      },
+      {
+        "user_id": 7125,
+        "email": "feduane@ku.ac.th",
+        "card_id": "12XXXXXXX3794",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 99,
+        "fullname": "น.ส.อรุณี  เอี่ยมใบพฤกษ์",
         "department_name": "มหาวิทยาลัยเกษตรศาสตร์"
       },
       {
@@ -48404,7 +48458,7 @@
         "card_id": "31XXXXXXX4091",
         "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
         "department_id": 143,
-        "fullname": "ผศ.ดร.ปิยะ  รนต์ละอง",
+        "fullname": "ผศ.ดร.ปิยะ  รนต์ละออง",
         "department_name": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา"
       },
       {
@@ -48415,6 +48469,393 @@
         "department_id": 143,
         "fullname": "ผศ.ดร.เกียรติขร  โสภณาภรณ์",
         "department_name": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา"
+      },
+      {
+        "user_id": 7144,
+        "email": "piyachat.jit@mahidol.ac.th",
+        "card_id": "39XXXXXXX5269",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 127,
+        "fullname": "น.ส.ปิยะฉัตร  จิตต์ธรรม",
+        "department_name": "มหาวิทยาลัยมหิดล"
+      },
+      {
+        "user_id": 7145,
+        "email": "cattliyalaoh@gmail.com",
+        "card_id": "11XXXXXXX7805",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 459,
+        "fullname": "น.ส.คัทฬิยา  เลาหพจนารถ",
+        "department_name": "ไม่สังกัดหน่วยงาน"
+      },
+      {
+        "user_id": 7146,
+        "email": "pattanopk@biotec.or.th",
+        "card_id": "31XXXXXXX7933",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 199,
+        "fullname": "นายภรรทนพ  กนกรัตนา",
+        "department_name": "สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.)"
+      },
+      {
+        "user_id": 7147,
+        "email": "N_Apichart@yahoo.com",
+        "card_id": "15XXXXXXX3308",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 459,
+        "fullname": "นายอภิชาติ  ใจใหม่",
+        "department_name": "ไม่สังกัดหน่วยงาน"
+      },
+      {
+        "user_id": 7149,
+        "email": "wanlapal@g.swu.ac.th",
+        "card_id": "31XXXXXXX9883",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 168,
+        "fullname": "ดร.วัลลภา  หล่อเหลี่ยม",
+        "department_name": "มหาวิทยาลัยศรีนครินทรวิโรฒ"
+      },
+      {
+        "user_id": 7150,
+        "email": "Primadab@gmail.com",
+        "card_id": "31XXXXXXX2100",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 132,
+        "fullname": "น.ส.พริมาดา  บัวหลวง",
+        "department_name": "มหาวิทยาลัยราชภัฏเพชรบูรณ์"
+      },
+      {
+        "user_id": 7151,
+        "email": "kikiporparb78@gmail.com",
+        "card_id": "14XXXXXXX0222",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 116,
+        "fullname": "น.ส.นันทภรณ์  ผาพันธ์",
+        "department_name": "มหาวิทยาลัยขอนแก่น"
+      },
+      {
+        "user_id": 7152,
+        "email": "sukhumaporn@g.swu.ac.th",
+        "card_id": "31XXXXXXX1556",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 168,
+        "fullname": "รศ.ดร.สุขุมาภรณ์  กระจ่างสังข์",
+        "department_name": "มหาวิทยาลัยศรีนครินทรวิโรฒ"
+      },
+      {
+        "user_id": 7153,
+        "email": "krittapat.f@bcnpy.ac.th",
+        "card_id": "35XXXXXXX2075",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 331,
+        "fullname": "ผศ.ดร.กฤตพัทธ์  ฝึกฝน",
+        "department_name": "สถาบันพระบรมราชชนก"
+      },
+      {
+        "user_id": 7156,
+        "email": "jscmo555@gmail.com",
+        "card_id": "14XXXXXXX1002",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 115,
+        "fullname": "ผศ.ดร.วรรณธิดา  ยลวิลาศ",
+        "department_name": "มหาวิทยาลัยกาฬสินธุ์"
+      },
+      {
+        "user_id": 7157,
+        "email": "ornuma.d@ku.ac.th",
+        "card_id": "32XXXXXXX0151",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 99,
+        "fullname": "ดร.อรอุมา  ด้วงงาม",
+        "department_name": "มหาวิทยาลัยเกษตรศาสตร์"
+      },
+      {
+        "user_id": 7158,
+        "email": "Chompunut.cha@gistda.or.th",
+        "card_id": "36XXXXXXX1694",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 198,
+        "fullname": "น.ส.ชมภูนุช  ฉายาเวช",
+        "department_name": "สำนักงานพัฒนาเทคโนโลยีอวกาศและภูมิสารสนเทศ (องค์การมหาชน)"
+      },
+      {
+        "user_id": 7159,
+        "email": "napalai_b@pcru.ac.th",
+        "card_id": "36XXXXXXX3771",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 132,
+        "fullname": "น.ส.นภาลัย  บุญทิม",
+        "department_name": "มหาวิทยาลัยราชภัฏเพชรบูรณ์"
+      },
+      {
+        "user_id": 7160,
+        "email": "pimpikar.kan@mahidol.ac.th",
+        "card_id": "11XXXXXXX0023",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 127,
+        "fullname": "ผศ.ดร.พิมพิกา  กาญจนดำเกิง",
+        "department_name": "มหาวิทยาลัยมหิดล"
+      },
+      {
+        "user_id": 7161,
+        "email": "rossaporn@g.swu.ac.th",
+        "card_id": "33XXXXXXX7056",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 168,
+        "fullname": "รศ.ดร.รสพร  เจียมจริยธรรม",
+        "department_name": "มหาวิทยาลัยศรีนครินทรวิโรฒ"
+      },
+      {
+        "user_id": 7162,
+        "email": "sukanyami@g.swu.ac.th",
+        "card_id": "16XXXXXXX2036",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 168,
+        "fullname": "ดร.สุกัญญา  มิ่งใหญ่",
+        "department_name": "มหาวิทยาลัยศรีนครินทรวิโรฒ"
+      },
+      {
+        "user_id": 7163,
+        "email": "watcharee.ket@mahidol.ac.th",
+        "card_id": "31XXXXXXX3803",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 127,
+        "fullname": "ผศ.ดร.วัชรี  เกษพิชัยณรงค์",
+        "department_name": "มหาวิทยาลัยมหิดล"
+      },
+      {
+        "user_id": 7165,
+        "email": "bunyarat.run@nanotec.or.th",
+        "card_id": "11XXXXXXX9865",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 199,
+        "fullname": "ดร.บุญรัตน์  รุ่งทวีวรนิตย์",
+        "department_name": "สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.)"
+      },
+      {
+        "user_id": 7166,
+        "email": "aikkarach.ket@mahidol.ac.th",
+        "card_id": "31XXXXXXX7495",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 127,
+        "fullname": "รศ.ดร.เอกราช  เกตวัลห์",
+        "department_name": "มหาวิทยาลัยมหิดล"
+      },
+      {
+        "user_id": 7167,
+        "email": "namkang.sri@mahidol.ac.th",
+        "card_id": "35XXXXXXX1987",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 127,
+        "fullname": "น.ส.น้ำค้าง  ศรีวัฒนาโรทัย",
+        "department_name": "มหาวิทยาลัยมหิดล"
+      },
+      {
+        "user_id": 7168,
+        "email": "moo2120@gmail.com",
+        "card_id": "37XXXXXXX3810",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 127,
+        "fullname": "นายคงวุฒิ  นิรันตสุข",
+        "department_name": "มหาวิทยาลัยมหิดล"
+      },
+      {
+        "user_id": 7169,
+        "email": "uthaiw@nu.ac.th",
+        "card_id": "31XXXXXXX3719",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 119,
+        "fullname": "นายอุทัย  วิชัย",
+        "department_name": "มหาวิทยาลัยนเรศวร"
+      },
+      {
+        "user_id": 7172,
+        "email": "k-palm@live.com",
+        "card_id": "11XXXXXXX2369",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 116,
+        "fullname": "นายธีรพงษ์  เกิดเอี่ยม",
+        "department_name": "มหาวิทยาลัยขอนแก่น"
+      },
+      {
+        "user_id": 7173,
+        "email": "kukkik11148@gmail.com",
+        "card_id": "09XXXXXXX7",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 116,
+        "fullname": "น.ส.ปณิธิดา  อ้วนสาเล",
+        "department_name": "มหาวิทยาลัยขอนแก่น"
+      },
+      {
+        "user_id": 7174,
+        "email": "kulvadee@g.swu.ac.th",
+        "card_id": "11XXXXXXX6161",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 168,
+        "fullname": "ผศ.ดร.กุลวดี  ดลโสภณ",
+        "department_name": "มหาวิทยาลัยศรีนครินทรวิโรฒ"
+      },
+      {
+        "user_id": 7175,
+        "email": "siritron@gmail.com",
+        "card_id": "32XXXXXXX4553",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 168,
+        "fullname": "รศ.ดร.สิริธร  สโมสร",
+        "department_name": "มหาวิทยาลัยศรีนครินทรวิโรฒ"
+      },
+      {
+        "user_id": 7176,
+        "email": "Sang031122@gmail.com",
+        "card_id": "37XXXXXXX9082",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 459,
+        "fullname": "ว่าที่ร.ต.พยงค์  น้อยคล้าย",
+        "department_name": "ไม่สังกัดหน่วยงาน"
+      },
+      {
+        "user_id": 7177,
+        "email": "tawipatku@gmail.com",
+        "card_id": "37XXXXXXX2201",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 131,
+        "fullname": "ดร.ทวิพัฒน์  วิจิตรปัญญารักษ์",
+        "department_name": "มหาวิทยาลัยราชภัฏเพชรบุรี"
+      },
+      {
+        "user_id": 7178,
+        "email": "pmoonsri596@gmail.com",
+        "card_id": "35XXXXXXX7530",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 132,
+        "fullname": "รศ.ดร.ปิยรัตน์  มูลศรี",
+        "department_name": "มหาวิทยาลัยราชภัฏเพชรบูรณ์"
+      },
+      {
+        "user_id": 7179,
+        "email": "piya.inmu@gmail.com",
+        "card_id": "37XXXXXXX4651",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 127,
+        "fullname": "นายปิยะ  เต็มวิริยะนุกูล",
+        "department_name": "มหาวิทยาลัยมหิดล"
+      },
+      {
+        "user_id": 7181,
+        "email": "Sudarat250525@gmail.com",
+        "card_id": "35XXXXXXX8317",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 100,
+        "fullname": "น.ส.สุดารัตน์  อุทธารัตน์",
+        "department_name": "มหาวิทยาลัยเชียงใหม่"
+      },
+      {
+        "user_id": 7182,
+        "email": "dokor123456@hotmail.com",
+        "card_id": "36XXXXXXX0811",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 132,
+        "fullname": "น.ส.ดอกอ้อ  ขวัญนิน",
+        "department_name": "มหาวิทยาลัยราชภัฏเพชรบูรณ์"
+      },
+      {
+        "user_id": 7185,
+        "email": "samart77@gmail.com",
+        "card_id": "35XXXXXXX6440",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 459,
+        "fullname": "นายสามารถ  สุวรรณรัตน์",
+        "department_name": "ไม่สังกัดหน่วยงาน"
+      },
+      {
+        "user_id": 7186,
+        "email": "best123123@hotmail.com",
+        "card_id": "16XXXXXXX2465",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 132,
+        "fullname": "ผศ.ดร.บวรลักษณ์  เงินมา",
+        "department_name": "มหาวิทยาลัยราชภัฏเพชรบูรณ์"
+      },
+      {
+        "user_id": 7187,
+        "email": "nureehan.s@psu.ac.th",
+        "card_id": "19XXXXXXX1073",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 170,
+        "fullname": "น.ส.นูรีฮาน  สาเเละ",
+        "department_name": "มหาวิทยาลัยสงขลานครินทร์"
+      },
+      {
+        "user_id": 7188,
+        "email": "kristiyatom@hotmail.com",
+        "card_id": "34XXXXXXX3058",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 132,
+        "fullname": "นางกฤษติญา  มูลศรี",
+        "department_name": "มหาวิทยาลัยราชภัฏเพชรบูรณ์"
+      },
+      {
+        "user_id": 7189,
+        "email": "porntawee.kon@pcru.ac.th",
+        "card_id": "36XXXXXXX3908",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 132,
+        "fullname": "นายพรทวี  กองร้อย",
+        "department_name": "มหาวิทยาลัยราชภัฏเพชรบูรณ์"
+      },
+      {
+        "user_id": 7192,
+        "email": "pitiwat.w@cmu.ac.th",
+        "card_id": "35XXXXXXX4358",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 100,
+        "fullname": "รศ.ดร.ปิติวัฒน์  วัฒนชัย",
+        "department_name": "มหาวิทยาลัยเชียงใหม่"
+      },
+      {
+        "user_id": 7193,
+        "email": "chutima1317@gmail.com",
+        "card_id": "16XXXXXXX6429",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 132,
+        "fullname": "นางชุติมา  อ่ำทอง",
+        "department_name": "มหาวิทยาลัยราชภัฏเพชรบูรณ์"
+      },
+      {
+        "user_id": 7194,
+        "email": "jetsadaporn.pa@gmail.com",
+        "card_id": "36XXXXXXX7775",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 132,
+        "fullname": "นายเจษฎาพร  ปาคำวัง",
+        "department_name": "มหาวิทยาลัยราชภัฏเพชรบูรณ์"
+      },
+      {
+        "user_id": 7195,
+        "email": "korawan.sangkakorn@cmu.ac.th",
+        "card_id": "35XXXXXXX1965",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 100,
+        "fullname": "ดร.กรวรรณ  สังขกร",
+        "department_name": "มหาวิทยาลัยเชียงใหม่"
+      },
+      {
+        "user_id": 7197,
+        "email": "supaporn.w@pcru.ac.th",
+        "card_id": "36XXXXXXX6380",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 132,
+        "fullname": "นางสุภาพร  วิสุงเร",
+        "department_name": "มหาวิทยาลัยราชภัฏเพชรบูรณ์"
+      },
+      {
+        "user_id": 7198,
+        "email": "Thanawan_pi@hotmail.com",
+        "card_id": "14XXXXXXX7034",
+        "default_role_id": "นักวิจัย / หัวหน้าโครงการ / นักวิจัยร่วม",
+        "department_id": 132,
+        "fullname": "น.ส.ธนาวรรณ  พิณะเวศน์",
+        "department_name": "มหาวิทยาลัยราชภัฏเพชรบูรณ์"
       }
     ]
   }

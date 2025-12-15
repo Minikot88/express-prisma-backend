@@ -25,7 +25,7 @@ async function readJsonArray(filePath, label) {
     ? lvl1.data
     : null;
 
-  if (!Array.isArray(arr)) {
+  if (!Array.isArray(arr)) { 
     throw new Error(`${label}: data is not array`);
   }
   return arr;

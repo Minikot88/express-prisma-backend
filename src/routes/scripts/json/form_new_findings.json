@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2025-12-09T13:00:14.010Z",
+  "fetchedAt": "2025-12-15T09:31:40.123Z",
   "key": "form_new_findings",
   "url": "https://triup.tsri.or.th/service/api/form_new_findings",
   "data": {
@@ -749,9 +749,9 @@
         "report_title_en": "Chitin extraction process using probiotic lactic acid bacteria fermentation and sequential protein removal using commercial alkaline protease",
         "createBy": 6515,
         "form_status_id": 19401193,
-        "sla_at": "2025-11-06 16:13:20",
+        "sla_at": "2025-12-15 10:41:04",
         "sla_by": 6515,
-        "status": "ไม่ผ่านการตรวจสอบจากผู้รับทุน รอนักวิจัยแก้ไข"
+        "status": "ผ่านการตรวจสอบแล้ว รออนุมัติ จากผู้ให้ทุน"
       },
       {
         "form_new_id": 2590,
@@ -762,7 +762,7 @@
         "form_status_id": 19401215,
         "sla_at": "2025-10-27 10:20:07",
         "sla_by": 6524,
-        "status": "ไม่ผ่านการตรวจสอบจากผู้ให้ทุน รอผู้รับทุนแก้ไข"
+        "status": "ผ่านการตรวจสอบแล้ว รออนุมัติ จากผู้ให้ทุน"
       },
       {
         "form_new_id": 2663,
@@ -771,9 +771,9 @@
         "report_title_en": "Preclinical study of TB vaccine development using viral vector and mRNA delivering platforms",
         "createBy": 1979,
         "form_status_id": 19401346,
-        "sla_at": "2025-11-21 16:18:32",
+        "sla_at": "2025-12-11 16:16:12",
         "sla_by": 1979,
-        "status": "ไม่ผ่านการตรวจสอบจากผู้รับทุน รอนักวิจัยแก้ไข"
+        "status": "ไม่ผ่านการตรวจสอบจากผู้ให้ทุน รอผู้รับทุนแก้ไข"
       }
     ]
   }
