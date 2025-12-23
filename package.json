@@ -25,16 +25,22 @@
     "@nestjs/platform-express": "^11.1.9",
     "@prisma/adapter-pg": "^7.1.0",
     "@prisma/client": "^7.1.0",
+    "axios": "^1.13.2",
+    "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "exceljs": "^4.4.0",
     "express": "^5.2.1",
+    "express-session": "^1.18.2",
+    "jsonwebtoken": "^9.0.3",
+    "openid-client": "^6.8.1",
     "pdfkit": "^0.17.2",
     "pg": "^8.16.3",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2",
     "soap": "^1.6.1",
-    "undici": "^7.1.0"
+    "undici": "^7.1.0",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@types/node": "^24.10.2",
@@ -45,4 +51,3 @@
     "typescript": "^5.9.3"
   }
 }
- 
